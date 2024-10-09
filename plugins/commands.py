@@ -193,7 +193,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ],[
-                            InlineKeyboardButton('💫 ᴄʜᴀɴɴᴇʟꜱ', callback_data='channels')
+                            InlineKeyboardButton('💫 ɪᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url=f'https://telegram.me/+LOFtDpWFetoyNjFl')
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAALDTWbXKxpHRa0gGlTE3yQELYdA8LZ_AAJoFQAC9Wm4Vva572hobzvLHgQ") 
@@ -224,7 +224,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ],[
-                            InlineKeyboardButton('💫 ᴄʜᴀɴɴᴇʟꜱ', callback_data='channels')
+                            InlineKeyboardButton('💫 ɪᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url=f'https://telegram.me/+LOFtDpWFetoyNjFl')
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAALDTWbXKxpHRa0gGlTE3yQELYdA8LZ_AAJoFQAC9Wm4Vva572hobzvLHgQ") 
@@ -288,7 +288,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ],[
-                            InlineKeyboardButton('💫 ᴄʜᴀɴɴᴇʟꜱ', callback_data='channels')
+                            InlineKeyboardButton('💫 ɪᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url=f'https://telegram.me/+LOFtDpWFetoyNjFl')
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
